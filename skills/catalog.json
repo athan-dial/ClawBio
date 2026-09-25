@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "generated_by": "scripts/generate_catalog.py",
-  "skill_count": 97,
+  "skill_count": 98,
   "galaxy_tool_count": 8182,
   "skills": [
     {
@@ -3231,6 +3231,51 @@
         "protein coefficient aging",
         "Goeminne clock explain",
         "which proteins drive organ age"
+      ],
+      "chaining_partners": [],
+      "license": "MIT",
+      "model_license": "",
+      "data_license": ""
+    },
+    {
+      "name": "pathogen-target-dissimilarity",
+      "cli_alias": "target-dissimilarity",
+      "description": "Rank pathogen proteins as drug targets by divergence from the host proteome, published essentiality, and conservation across a pathogen panel. Runs offline with phmmer, or from a precomputed BLAST/DIAMOND table for full-proteome scale.",
+      "version": "0.1.0",
+      "status": "planned",
+      "maturity_tier": "cli-registered",
+      "maturity_evidence": {
+        "has_skill_md": true,
+        "has_script": true,
+        "has_tests": true,
+        "has_demo": true,
+        "cli_registered": true,
+        "ci_tested": false,
+        "benchmark_validated": false
+      },
+      "has_script": true,
+      "has_tests": true,
+      "has_demo": true,
+      "demo_command": "python clawbio.py run target-dissimilarity --demo",
+      "dependencies": [
+        "python>=3.11",
+        "pyhmmer>=0.10"
+      ],
+      "tags": [
+        "target-discovery",
+        "comparative-genomics",
+        "antifungal",
+        "selectivity",
+        "proteomics"
+      ],
+      "trigger_keywords": [
+        "pathogen target discovery",
+        "host dissimilarity",
+        "which proteins have no human homolog",
+        "selectivity filter proteome",
+        "antifungal target selection",
+        "essential and fungal specific",
+        "rank drug targets by conservation"
       ],
       "chaining_partners": [],
       "license": "MIT",

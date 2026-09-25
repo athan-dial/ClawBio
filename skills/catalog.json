@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "generated_by": "scripts/generate_catalog.py",
-  "skill_count": 98,
+  "skill_count": 99,
   "galaxy_tool_count": 8182,
   "skills": [
     {
@@ -4128,6 +4128,50 @@
       "dependencies": [],
       "tags": [],
       "trigger_keywords": [],
+      "chaining_partners": [],
+      "license": "MIT",
+      "model_license": "",
+      "data_license": ""
+    },
+    {
+      "name": "target-chemistry-evidence",
+      "cli_alias": "target-chemistry",
+      "description": "For each protein in a ranked target list, report the compounds that already have measured activity against it, split into four evidence tiers that are never combined: assays on that protein, on an ortholog, on the same domain family, and whole-organism activity. Runs fully offline from a bioactivity export.",
+      "version": "0.1.0",
+      "status": "planned",
+      "maturity_tier": "cli-registered",
+      "maturity_evidence": {
+        "has_skill_md": true,
+        "has_script": true,
+        "has_tests": true,
+        "has_demo": true,
+        "cli_registered": true,
+        "ci_tested": false,
+        "benchmark_validated": false
+      },
+      "has_script": true,
+      "has_tests": true,
+      "has_demo": true,
+      "demo_command": "python clawbio.py run target-chemistry --demo",
+      "dependencies": [
+        "python>=3.11"
+      ],
+      "tags": [
+        "target-discovery",
+        "bioactivity",
+        "chemical-biology",
+        "evidence-tiers",
+        "antifungal"
+      ],
+      "trigger_keywords": [
+        "existing compounds for my targets",
+        "chemistry evidence per target",
+        "is there chemical matter for this target",
+        "ChEMBL bioactivity for a target list",
+        "which targets already have inhibitors",
+        "separate target-level from organism-level activity",
+        "ortholog chemistry for a target"
+      ],
       "chaining_partners": [],
       "license": "MIT",
       "model_license": "",

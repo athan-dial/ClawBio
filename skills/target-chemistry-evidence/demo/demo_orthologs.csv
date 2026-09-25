@@ -1,0 +1,4 @@
+protein_id,ortholog_accession,ortholog_organism,identity_pct,source
+CAL_HSP90,DEMOH003,Homo sapiens,58.0,synthetic demo mapping
+CAL_PYRE,DEMOH006,Homo sapiens,31.0,synthetic demo mapping
+CAL_ERG11,DEMOX001,Aspergillus fumigatus,62.0,synthetic demo mapping

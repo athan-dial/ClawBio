@@ -1,0 +1,25 @@
+compound_id	compound_name	target_id	target_accession	target_organism	target_pfam	activity_type	activity_value	activity_units	assay_type	assay_organism	source_id
+DEMO-CPD-001	demo-azole-A	DEMOTGT01	DEMO0001	Candida albicans	PF00067	IC50	42	nM	B	Candida albicans	DEMO-ASSAY-001
+DEMO-CPD-002	demo-azole-B	DEMOTGT01	DEMO0001	Candida albicans	PF00067	IC50	310	nM	B	Candida albicans	DEMO-ASSAY-002
+DEMO-CPD-003	demo-azole-C	DEMOTGT01	DEMO0001	Candida albicans	PF00067	Ki	0.9	uM	B	Candida albicans	DEMO-ASSAY-003
+DEMO-CPD-001	demo-azole-A			Candida albicans		MIC	0.25	ug.mL-1	F	Candida albicans SC5314	DEMO-ASSAY-004
+DEMO-CPD-004	demo-azole-D	DEMOTGT02	DEMOX001	Aspergillus fumigatus	PF00067	IC50	88	nM	B	Aspergillus fumigatus	DEMO-ASSAY-005
+DEMO-CPD-005	demo-P450-probe	DEMOTGT03	DEMOF001	Trypanosoma cruzi	PF00067	IC50	1200	nM	B	Trypanosoma cruzi	DEMO-ASSAY-006
+DEMO-CPD-010	demo-echinocandin-A			Candida albicans		MIC	0.06	ug.mL-1	F	Candida albicans	DEMO-ASSAY-010
+DEMO-CPD-011	demo-echinocandin-B			Candida albicans		MIC	0.12	ug.mL-1	F	Candida albicans	DEMO-ASSAY-011
+DEMO-CPD-012	demo-echinocandin-C			Candida albicans		MIC	0.5	mg.L-1	F	Candida albicans	DEMO-ASSAY-012
+DEMO-CPD-013	demo-extract-1			Candida albicans		Inhibition	62	%	F	Candida albicans	DEMO-ASSAY-013
+DEMO-CPD-014	demo-extract-2			Candida albicans		MIC		ug.mL-1	F	Candida albicans	DEMO-ASSAY-014
+DEMO-CPD-020	demo-hsp90-inhibitor-A	DEMOTGT10	DEMOH003	Homo sapiens	PF02518	Kd	7	nM	B	Homo sapiens	DEMO-ASSAY-020
+DEMO-CPD-021	demo-hsp90-inhibitor-B	DEMOTGT10	DEMOH003	Homo sapiens	PF02518	IC50	35	nM	B	Homo sapiens	DEMO-ASSAY-021
+DEMO-CPD-022	demo-hsp90-inhibitor-C	DEMOTGT11	DEMOF003	Mus musculus	PF02518	IC50	140	nM	B	Mus musculus	DEMO-ASSAY-022
+DEMO-CPD-030	demo-chitin-probe-A	DEMOTGT20	DEMOF004	Spodoptera frugiperda	PF01644	IC50	4.5	uM	B	Spodoptera frugiperda	DEMO-ASSAY-030
+DEMO-CPD-031	demo-chitin-probe-B	DEMOTGT20	DEMOF004	Spodoptera frugiperda	PF01644	IC50			B	Spodoptera frugiperda	DEMO-ASSAY-031
+DEMO-CPD-040	demo-dhodh-inhibitor-A	DEMOTGT30	DEMOH006	Homo sapiens	PF01180	IC50	18	nM	B	Homo sapiens	DEMO-ASSAY-040
+DEMO-CPD-041	demo-dhodh-inhibitor-B	DEMOTGT30	DEMOH006	Homo sapiens	PF01180	IC50	0.25	uM	B	Homo sapiens	DEMO-ASSAY-041
+DEMO-CPD-042	demo-dhodh-inhibitor-C			Candida albicans		MIC	8	ug.mL-1	F	Candida albicans	DEMO-ASSAY-042
+DEMO-CPD-050	demo-antibacterial-A			Escherichia coli		MIC	2	ug.mL-1	F	Escherichia coli	DEMO-ASSAY-050
+DEMO-CPD-051	demo-kinase-inhibitor	DEMOTGT40	DEMOF050	Homo sapiens	PF00069	IC50	3	nM	B	Homo sapiens	DEMO-ASSAY-051
+DEMO-CPD-052	demo-unrelated-A	DEMOTGT41	DEMOF051	Homo sapiens	PF00089	Ki	64	nM	B	Homo sapiens	DEMO-ASSAY-052
+DEMO-CPD-053	demo-unrelated-B			Aspergillus fumigatus		MIC	1	ug.mL-1	F	Aspergillus fumigatus	DEMO-ASSAY-053
+DEMO-CPD-054	demo-unrelated-C	DEMOTGT42	DEMOF052	Rattus norvegicus	PF00001	EC50	500	nM	F	Rattus norvegicus	DEMO-ASSAY-054

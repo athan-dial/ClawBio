@@ -1260,6 +1260,27 @@ SKILLS = {
         "no_input_required": True,
         "accepts_genotypes": False,
     },
+    "target-dissimilarity": {
+        "script": SKILLS_DIR / "pathogen-target-dissimilarity" / "pathogen_target_dissimilarity.py",
+        "demo_args": ["--demo"],
+        "description": "Pathogen target triage — ranks proteins by host divergence, essentiality and conservation across a pathogen panel",
+        "allowed_extra_flags": {
+            "--pathogen", "--host", "--panel", "--annotations", "--hits",
+            "--evalue", "--min-coverage",
+        },
+        "no_input_required": True,
+        "accepts_genotypes": False,
+    },
+    "target-chemistry": {
+        "script": SKILLS_DIR / "target-chemistry-evidence" / "target_chemistry_evidence.py",
+        "demo_args": ["--demo"],
+        "description": "Target chemistry evidence — existing compounds per target, split into exact-target, ortholog, family and phenotypic tiers that are never combined",
+        "allowed_extra_flags": {
+            "--targets", "--bioactivity", "--orthologs", "--organism",
+        },
+        "no_input_required": True,
+        "accepts_genotypes": False,
+    },
 }
 
 try:
